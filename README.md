@@ -1,104 +1,94 @@
 # Solar AI - Landing Page
 
-Un site de chargement moderne et animé pour l'application Solar AI - Tanning Assistant avec redirection automatique vers l'App Store.
+A modern and animated loading site for the Solar AI - Tanning Assistant app with automatic redirection to the App Store.
 
-## 🌟 Fonctionnalités
+## 🌟 Features
 
-- **Animation de chargement élégante** avec un soleil animé
-- **Barre de progression fluide** avec effets brillants
-- **Redirection automatique** vers l'App Store après le chargement
-- **TikTok Pixel intégré** pour le tracking analytique
-- **Design responsive** adapté à tous les écrans
-- **Animations CSS3** modernes et fluides
+- **Elegant loading animation** with an animated sun
+- **Smooth progress bar** with brilliant effects
+- **Automatic redirection** to the App Store after loading
+- **Responsive design** adapted to all screens
+- **Modern CSS3 animations** smooth and fluid
 
-## 🚀 Démarrage rapide
+## 🚀 Quick Start
 
-1. **Installation des dépendances :**
+1. **Install dependencies:**
    ```bash
    npm install
    ```
 
-2. **Lancement en mode développement :**
+2. **Launch in development mode:**
    ```bash
    npm start
    ```
 
-3. **Build pour production :**
+3. **Build for production:**
    ```bash
    npm run build
    ```
 
-## 📱 Fonctionnement
+## 📱 How it works
 
-1. **Chargement** : Animation de progression de 0% à 100%
-2. **Affichage** : Présentation des fonctionnalités clés de l'app
-3. **Redirection** : Redirection automatique vers l'App Store après 2 secondes
+1. **Loading**: Progress animation from 0% to 100%
+2. **Display**: Presentation of the app's key features
+3. **Redirection**: Automatic redirection to the App Store after 2 seconds
 
-## 🎨 Personnalisation
+## 🎨 Customization
 
-### Modifier le temps de redirection
-Dans `src/App.tsx`, ligne 17 :
+### Modify redirect time
+In `src/App.tsx`, line 17:
 ```typescript
 setTimeout(() => {
   window.location.href = 'https://apps.apple.com/us/app/solar-ai-tanning-assistant/id6745706560';
-}, 2000); // Modifier cette valeur (en millisecondes)
+}, 2000); // Modify this value (in milliseconds)
 ```
 
-### Modifier la vitesse de chargement
-Dans `src/App.tsx`, ligne 20 :
+### Modify loading speed
+In `src/App.tsx`, line 20:
 ```typescript
-return prev + 2; // Modifier cette valeur pour changer la vitesse
+return prev + 2; // Modify this value to change the speed
 ```
 
-### Personnaliser les couleurs
-Dans `src/App.css`, modifier les gradients :
+### Customize colors
+In `src/App.css`, modify the gradients:
 ```css
 background: linear-gradient(135deg, #ff9a56 0%, #ff6b6b 50%, #4ecdc4 100%);
 ```
 
-## 📊 Analytics TikTok
+## 🔗 App Store Link
 
-Le pixel TikTok est configuré avec l'ID : `D0URKCRC77U2P4BEBNUG`
+The app redirects to: https://apps.apple.com/us/app/solar-ai-tanning-assistant/id6745706560
 
-Le code de tracking est automatiquement injecté dans le `<head>` de la page et track :
-- Page views automatiques
-- Prêt pour des événements personnalisés
+## 🛠 Technologies used
 
-## 🔗 Lien App Store
-
-L'application redirige vers : https://apps.apple.com/us/app/solar-ai-tanning-assistant/id6745706560
-
-## 🛠 Technologies utilisées
-
-- **React 18** avec TypeScript
-- **CSS3** avec animations avancées
-- **TikTok Pixel** pour analytics
-- **Create React App** pour le scaffolding
+- **React 18** with TypeScript
+- **CSS3** with advanced animations
+- **Create React App** for scaffolding
 
 ## 📱 Solar AI Features
 
-- 🔍 **Scan facial** pour détecter le type de peau
-- 📱 **Routine personnalisée** basée sur l'index UV
-- ⏰ **Minuteurs guidés** et rappels
-- 🌞 **Bronzage sécurisé** et uniforme
+- 🔍 **Facial scan** to detect skin type
+- 📱 **Personalized routine** based on UV index
+- ⏰ **Guided timers** and reminders
+- 🌞 **Safe and even** tanning
 
-## 🌐 Déploiement
+## 🌐 Deployment
 
-Pour déployer en production :
+To deploy in production:
 
-1. Build du projet :
+1. Build the project:
    ```bash
    npm run build
    ```
 
-2. Le dossier `build/` contient les fichiers statiques prêts pour le déploiement
+2. The `build/` folder contains the static files ready for deployment
 
-3. Compatible avec tous les services d'hébergement :
+3. Compatible with all hosting services:
    - Netlify
    - Vercel
    - GitHub Pages
    - Firebase Hosting
 
-## 📄 Licence
+## 📄 License
 
-© 2025 Mercura Labs Inc. Tous droits réservés.
+© 2025 Mercura Labs Inc. All rights reserved.
