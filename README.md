@@ -91,4 +91,4 @@ To deploy in production:
 
 ## 📄 License
 
-© 2025 Mercura Labs Inc. All rights reserved.
+© 2025 JT Collaborative Sales LLC. All rights reserved.
